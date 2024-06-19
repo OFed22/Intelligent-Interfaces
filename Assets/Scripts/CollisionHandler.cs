@@ -9,7 +9,6 @@ public class CollisionHandler : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet") && !gameIsOver)
         {
-            Debug.Log("Hut!");
             gameIsOver = true;
             Time.timeScale = 0f; // Pause the game
             
